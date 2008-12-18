@@ -1,0 +1,23 @@
+#summary One-sentence summary of this page.
+
+= Installing simple=
+
+  *unzip archive to arbitrary directory, cd in this directory
+  *./autogen.sh
+  *make install
+  *gst-editor 
+
+
+= Installing in custom folder =
+
+  *unzip archive to arbitrary directory
+  *run autogen.sh --noconfigure
+  *./configure --prefix=/home/username/mylibs  (or whatever you like)
+  *make install
+  */home/username/mylibs/bin/gst-editor
+
+= Installing in custom folder with custom gstreamer-installation(without touching existing gstreamer installations)=
+
+mkdir /
+
+==Install Gstreamer==
